@@ -19,7 +19,7 @@ function ODlottery() {
       <div className="container accordcontain">
         {/* <Contractinfo /> */}
         <div className="accordcontainer">
-          <div className="refresher"><a href="#/" rel="noopener" type="submit" onClick={() => {
+          <div className="refresher"><a href="/#" rel="noopener" type="submit" onClick={() => {
 								panelrefresh();
 							}}>Refresh</a></div>
           <Readaccordion />

@@ -1,0 +1,402 @@
+:root {
+    --site-bg: #132a47;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+        scroll-behavior: smooth;
+    }
+}
+
+/* editing css */
+.blueline {
+    border: 3px dashed blue;
+}
+
+.redline {
+    border: 3px dashed red;
+}
+
+.greenline {
+    border: 3px dashed green;
+}
+
+.yellowline {
+    border: 3px dashed yellow;
+}
+
+.orangeline {
+    border: 3px dashed orange;
+}
+
+/* scrollbar appearance */
+
+::-webkit-scrollbar {
+    width: 1.25em;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(49, 58, 70);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(100, 119, 144);
+    border: .25em solid rgb(49, 58, 70);
+    border-radius: 100vw;
+}
+
+/* end of scrollbar appearance */
+
+.homecontainer {
+    height: 100vh;
+    width: 100%;
+    background: var(--site-bg);
+    color: #fff;
+}
+
+.googFiraSans {
+    font-family: 'Fira Sans', sans-serif;
+    color: whitesmoke;
+    font-size: 37px;
+}
+
+.turntextblack {
+    color: black;
+}
+
+.turntextwhite {
+    color: white;
+}
+
+.timeContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100vw;
+    margin: 0px auto;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.timer {
+    margin: 0px 30px;
+}
+
+.para-big {
+    font-size: 20px;
+    color: white;
+    margin: 0px 10px 18px 0px;
+    font-weight: bold;
+    background: #3e2f96;
+    box-shadow: 20px 20px 60px rgba(255, 555, 555, .24) -20px -20px 60px rgba(255, 255, 255, .2);
+    border: 1px solid rgba(255, 255, 255, .2);
+    padding: 15px 30px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.span-small {
+    margin: 0px 10px 18px 0px;
+    font-size: 15px;
+    font-weight: bold;
+    background: #ffffffc4;
+    display: block;
+    padding: 5px;
+    margin-top: -18px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.navcontainer,
+.navcontainer-fluid,
+.navcontainer-xxl,
+.navcontainer-xl,
+.navcontainer-lg,
+.navcontainer-md,
+.navcontainer-sm {
+    width: 100vw;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+}
+
+.mycontainer,
+.mycontainer-fluid,
+.mycontainer-xxl,
+.mycontainer-xl,
+.mycontainer-lg,
+.mycontainer-md,
+.mycontainer-sm {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    background-color: #012137;
+}
+
+.mybgcontainer,
+.mybgcontainer-fluid,
+.mybgcontainer-xxl,
+.mybgcontainer-xl,
+.mybgcontainer-lg,
+.mybgcontainer-md,
+.mybgcontainer-sm {
+    width: 100%;
+    height: 100%;
+}
+
+h1.outline-1 {
+    /* Prefix required. Even Firefox only supports the -webkit- prefix */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.myshadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.6) !important;
+}
+
+.myshadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5) !important;
+}
+
+.mypx-3 {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+}
+
+.countdown {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.shibtoburndisplayed {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 700;
+    font-style: bold;
+    text-align: left;
+    /* Prefix required. Even Firefox only supports the -webkit- prefix */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.linkpadding100px {
+    padding-left: 100px;
+}
+
+.bottomblackline {
+    border-bottom: 3px solid rgba(0, 0, 0, 0.441);
+}
+
+.navshadow {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+.mylogo {
+    height: 63px;
+    width: 525px;
+    /* background-image: url("../assets/mylogo7.jpg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.maininfo {
+    position: relative;
+    height: 824px;
+    max-width: auto;
+    background: url("../assets/lottery_home_page_04_5.gif") no-repeat center;
+    overflow: hidden;
+}
+
+.textright {
+    text-align: right;
+}
+
+.spacing {
+    width: 1px;
+    height: 131px;
+}
+
+.margin-r1 {
+    width: 1px;
+    height: 131px;
+}
+
+.margin_l10 {
+    flex: 0 0 auto;
+    margin-left: 75px;
+}
+
+.margin_t10 {
+    margin-top: 8px;
+    margin-left: 30px;
+}
+
+.margin_move_up {
+    margin-top: -50px;
+}
+
+.vertspacing {
+    width: 100%;
+    height: 50px;
+}
+
+.vert10pxspacing {
+    width: 100%;
+    height: 10px;
+}
+
+.vert20pxspacing {
+    width: 100%;
+    height: 20px;
+}
+
+.porcheBottomSpacer {
+    width: 100%;
+    height: 16px;
+}
+
+.bg_grey {
+    background-color: #38384c;
+}
+
+.bg_grey_opacity {
+    background-color: #38384c;
+    background: rgba(56, 56, 76, .9);
+}
+
+.bg_blue {
+    background-color: #352882;
+}
+
+.bg_darkblue {
+    background-color: #012137;
+}
+
+.bg_white {
+    background-color: #fff;
+}
+
+.bg_footer {
+    background: #112641;
+    border-style: solid;
+    border-color: #060e1759;
+    border-left: 0;
+    border-right: 0;
+}
+
+.inthemoneytext {
+    color: goldenrod;
+}
+
+.warningtext {
+    color: #63cb6b;
+}
+
+a.goldenticket:link {
+    color: goldenrod;
+}
+
+a.goldenticket:visited {
+    color: goldenrod;
+}
+
+a.goldenticket:hover {
+    color: goldenrod;
+}
+
+a.goldenticket:active {
+    color: goldenrod;
+}
+
+a.mynavlinks:link {
+    color: goldenrod;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+a.mynavlinks:visited {
+    color: goldenrod;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.mynavlinks:hover {
+    color: rgb(214, 71, 114);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.mynavlinks:active {
+    color: #d64772;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.imgsize {
+    height: 60px;
+    width: 60px;
+}
+
+.My-6 {
+    margin-top: 60px !important;
+    margin-bottom: 1.75rem !important;
+}
+
+.my_btn {
+    background-color: #2c67be;
+    color: white;
+}
+
+.my_btn {
+    color: #fff;
+    background-color: #2c67be;
+    border-color: #2c67be;
+}
+
+.my_btn:hover {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+@media (max-width: 1024px) {
+    .my_btn {
+        background-color: #2c67be;
+        color: white;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+}
+
+.logoml {
+    padding-left: 3.6rem !important;
+}
+
+@media (max-width: 768) {
+    .logoml {
+        padding-left: 0 !important;
+    }
+}
+
+.mybar {
+    justify-content: center;
+    align-items: center;
+}
+
+.copycontractaddress {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    align-items: center;
+}

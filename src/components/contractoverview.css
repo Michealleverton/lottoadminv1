@@ -1,0 +1,155 @@
+.copycontractaddress{
+    position: relative;
+    display: flex;
+    /* background: red; */
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.copycontractaddress button{
+    font-size: 15px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.copytextContainer {
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    background: #012137;
+    border: #000000f2 solid 2px;
+    border-radius: .5rem;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.infoholder {
+    position: relative;
+    /* background: red; */
+}
+
+.homeinfoholder {
+    position: relative;
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.overviewheader {
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    padding: 15px;
+    width: 40vw;
+    background: #012137;
+    border: #000000f2 solid 2px;
+    border-bottom: 0;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.overviewbody {
+    position: relative;
+    display: flex;
+    margin-bottom: 25px;
+    padding: 15px;
+    width: 40vw;
+    background: #012137;
+    border: #000000f2 solid 2px;
+    border-top: 2;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.ODoverviewbody {
+    position: relative;
+    display: flex;
+    margin-bottom: 25px;
+    padding: 15px;
+    width: 40vw;
+    /* background: #012137; */
+    background: url(../assets/ODBK.jpg);
+    background-size: cover;
+    background-position: bottom 0px right 25px;
+    border: #000000f2 solid 2px;
+    border-top: 2;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.TDoverviewbody {
+    position: relative;
+    display: flex;
+    margin-bottom: 25px;
+    padding: 15px;
+    width: 40vw;
+    /* background: #012137; */
+    background: url(../assets/TDBG.jpg);
+    background-size: cover;
+    background-position: bottom 0px right 25px;
+    border: #000000f2 solid 2px;
+    border-top: 2;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.FFoverviewbody {
+    position: relative;
+    display: flex;
+    margin-bottom: 25px;
+    padding: 15px;
+    width: 40vw;
+    /* background: #012137; */
+    background: url(../assets/FFBG.jpg);
+    background-size: cover;
+    background-position: bottom 0px right 25px;
+    border: #000000f2 solid 2px;
+    border-top: 2;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.infocontainer {
+    position: relative;
+    display: flex;
+    margin-bottom: 25px;
+    padding: 15px;
+    width: 40vw;
+    background: #012137;
+    border: #000000f2 solid 2px;
+    border-top: 2;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.addresstext {
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+.overviewcontain {
+    position: relative;
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    justify-content: center;
+    height: 500px;
+    width: 100vw;
+    background: #012137;
+    border: #000000f2 solid 2px;
+    border-radius: .5rem;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.allinfoholder {
+    position: relative;
+    display: flex;
+    gap: 25px;
+}

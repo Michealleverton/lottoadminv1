@@ -1,0 +1,39 @@
+.accordion .item {
+    background-color: #ffffff;
+    margin-bottom: 0.2rem;
+    border: 0;
+    /* border-radius: 0; */
+    color: rgba(0, 0, 0, 0.826);
+    box-shadow: inherit;
+}
+
+.accordion {
+    width: 580px;
+    background: #012137;
+    border: 1px solid #ffffff46;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.accordcontain {
+    position: relative;
+    display: flex;
+    gap: 25px;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    justify-content: center;
+    height: 500px;
+    width: 100vw;
+    background: #012137;
+    border: #000000f2 solid 2px;
+    border-radius: .5rem;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.refresher {
+    position:absolute;
+    right:70px;
+    top: 18px;
+    color: #ffffff;
+    font-style:italic;
+}

@@ -16,6 +16,7 @@ const Navigation = (props) => {
       window.ethereum.on("accountsChanged", (accounts) => {
         if (accounts.length > 0) {
           setWallet(accounts[0]);
+          localStorage.setItem("connected address", accounts[0])
           setStatus("👆🏽 Write a message in the text-field above.");
         } else {
           setWallet("");
@@ -41,7 +42,7 @@ const Navigation = (props) => {
       const { address, status } = await getCurrentWalletConnected();
       setWallet(address)
       setStatus(status);
-
+      localStorage.setItem("connected address", address)
       addWalletListener();
     }
     fetchData();
@@ -51,6 +52,7 @@ const Navigation = (props) => {
     const walletResponse = await connectWallet();
     setStatus(walletResponse.status);
     setWallet(walletResponse.address);
+    localStorage.setItem("connected address",walletResponse.address)
   };
 
   // * Navbar html to display App itmes
@@ -65,7 +67,7 @@ const Navigation = (props) => {
 
             <div className="navbar-collapse text-center">
               <ul className="nav ms-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                <li><NavLink className="nav-link" to="/">Home</NavLink></li>
+                <li><NavLink className="nav-link" to="/#">Home</NavLink></li>
                 <li><NavLink className="nav-link" to="/ODlottery">One Dallar Lottery</NavLink></li>
                 <li><NavLink className="nav-link" to="/TDlottery">Two Dallar Lottery</NavLink></li>
                 <li><NavLink className="nav-link" to="/FFlottery">Fifty Fifty Lottery</NavLink></li>

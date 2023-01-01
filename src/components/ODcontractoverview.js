@@ -39,10 +39,10 @@ function ODcontractoverview() {
                     <div className="container overviewbody text-white">
                         <div>
                             <div className=''>
-                                <div className='me-6-1 mb-3'>Contract Name : <h6>OneDollarTicket</h6> </div>
+                                <div className='me-6-1 mb-3'>Contract Name : <h6><a className='cleanlink' href="https://goerli.etherscan.io/address/0xCA5480152F30BCF9d147E0fcdfdF865EB5995e05#code">OneDollarTicket</a></h6> </div>
                             </div>
                             <div>
-                            <div className='mb-1'>Transaction Number : <h6>0x3dd59e73bfdd057e7781db6590...</h6></div>
+                            <div className='mb-1'>Transaction Number : <h6>0x47192400f7f45c351ca4f8a79a...</h6></div>
                             </div>
                         </div>
                     </div>

@@ -153,3 +153,13 @@
     display: flex;
     gap: 25px;
 }
+
+.cleanlink {
+    text-decoration: none;
+    color: #4f95ff;
+}
+
+.cleanlink:hover {
+    text-decoration: none;
+    color: #4f95ff;
+}

@@ -39,7 +39,7 @@ function TDcontractoverview() {
                     <div className="container overviewbody text-white">
                         <div>
                             <div className='mb-3'>
-                                <div className='me-6-1 mb-3'>Contract Name : <h6>TwoDollarTicket</h6> </div>
+                                <div className='me-6-1 mb-3'>Contract Name : <h6><a className='cleanlink' href="https://goerli.etherscan.io/address/0xAECc97279cE7B664561C1C0525bf6B159DB295C6#code">TwoDollarTicket</a></h6> </div>
                             </div>
                             {/* <div>
                             <div className='mb-3'>Contract Creator : <h6>0x3AA0Df703D0086495a3317A3e...</h6></div>

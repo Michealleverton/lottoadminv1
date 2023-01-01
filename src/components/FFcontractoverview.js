@@ -39,7 +39,7 @@ function FFcontractoverview() {
                     <div className="container overviewbody text-white">
                         <div>
                             <div className='mb-3'>
-                                <div className='me-6-1 mb-3'>Contract Name : <h6>FiftyFiftyTicket</h6> </div>
+                                <div className='me-6-1 mb-3'>Contract Name : <h6><a className='cleanlink' href="https://goerli.etherscan.io/address/0xAD031564418353D49406BD1B3410bA2FbbaCd1C5#code">FiftyFiftyTicket</a></h6> </div>
                             </div>
                             {/* <div>
                             <div className='mb-3'>Contract Creator : <h6>0x3AA0Df703D0086495a3317A3e...</h6></div>

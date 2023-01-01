@@ -19,7 +19,7 @@ function FFlottery() {
       <div className="container accordcontain">
         {/* <Contractinfo /> */}
         <div className="accordcontainer">
-        <div className="refresher"><a href="/#" onClick={() => {
+        <div className="refresher"><a href="#/" onClick={() => {
 								panelrefresh();
 							}}>Refresh</a></div>
           <Readaccordion />

@@ -4,7 +4,7 @@ import './Popup.css'
 
 function ContractTDcopy() {
 
-  const texttocopy = "0x31Cf2B41083003A66A2d10724956014D398d51f0"
+  const texttocopy = "0xAECc97279cE7B664561C1C0525bf6B159DB295C6"
 
   const copytoclipboard = () => {
     navigator.clipboard.writeText(texttocopy)

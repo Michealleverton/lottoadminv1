@@ -4,7 +4,7 @@ import './Popup.css'
 
 function ContractODcopy() {
 
-  const texttocopy = "0x31Cf2B41083003A66A2d10724956014D398d51f0"
+  const texttocopy = "0xCA5480152F30BCF9d147E0fcdfdF865EB5995e05"
 
   const copytoclipboard = () => {
     navigator.clipboard.writeText(texttocopy)
@@ -17,7 +17,7 @@ function ContractODcopy() {
       selectButton.classList.remove("active");
     }, 1500)
   }
-  
+
   return (
     <div className="copycontractaddress">
       <div className='addresstext '>

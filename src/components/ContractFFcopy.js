@@ -4,7 +4,7 @@ import './Popup.css'
 
 function ContractFFcopy() {
 
-  const texttocopy = "0x31Cf2B41083003A66A2d10724956014D398d51f0"
+  const texttocopy = "0xAD031564418353D49406BD1B3410bA2FbbaCd1C5"
 
   const copytoclipboard = () => {
     navigator.clipboard.writeText(texttocopy)
@@ -17,7 +17,7 @@ function ContractFFcopy() {
       selectButton.classList.remove("active");
     }, 1500)
   }
-  
+
   return (
     <div className="copycontractaddress">
       <div className='addresstext'>

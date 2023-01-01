@@ -400,3 +400,11 @@ a.mynavlinks:active {
     width: auto;
     align-items: center;
 }
+
+/* refresh */
+
+.refresh_button_link {
+    background:rgba(255, 255, 255, 0);
+    border: none;
+    color: white;
+}

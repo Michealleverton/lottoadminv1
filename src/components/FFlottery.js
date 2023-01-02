@@ -5,7 +5,7 @@ import Writeaccordion from "./Writeaccordion";
 import FFcontractoverview from "./FFcontractoverview";
 
 function panelrefresh() {
-  window.location.reload()
+  window.location.reload(false)
 }
 
 function FFlottery() {

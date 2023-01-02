@@ -5,7 +5,7 @@ import Writeaccordion from "./Writeaccordion";
 import TDcontractoverview from "./TDcontractoverview";
 
 function panelrefresh() {
-  window.location.reload()
+  window.location.reload(false)
 }
 
 function Home() {

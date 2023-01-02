@@ -4,10 +4,8 @@ import './Popup.css'
 
 function ContractODcopy() {
 
-  const texttocopy = "0xCA5480152F30BCF9d147E0fcdfdF865EB5995e05"
-
   const copytoclipboard = () => {
-    navigator.clipboard.writeText(texttocopy)
+    navigator.clipboard.writeText("0xCA5480152F30BCF9d147E0fcdfdF865EB5995e05")
   }
 
   function showCopied() {

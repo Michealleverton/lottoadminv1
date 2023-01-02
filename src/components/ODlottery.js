@@ -5,7 +5,7 @@ import Writeaccordion from "./Writeaccordion";
 import ODcontractoverview from "./ODcontractoverview";
 
 function panelrefresh() {
-  window.location.reload()
+  window.location.reload(false)
 }
 
 function ODlottery() {

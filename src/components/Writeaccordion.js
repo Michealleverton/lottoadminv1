@@ -11,7 +11,7 @@ const Writeaccordion = () => {
           Pause Contract
         </Accordion.Header>
         <Accordion.Body>
-          <button>Pause</button>
+          <button className='priceupdate_btn'>Pause</button>
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="3" className="item">
@@ -19,7 +19,7 @@ const Writeaccordion = () => {
           Pick Winner
         </Accordion.Header>
         <Accordion.Body>
-          <button>Pick Random Winner</button>
+          <button className='priceupdate_btn'>Pick Random Winner</button>
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="4" className="item">
@@ -27,7 +27,7 @@ const Writeaccordion = () => {
           Pay Winner
         </Accordion.Header>
         <Accordion.Body>
-          <button>Handout Winnings</button>
+          <button className='priceupdate_btn'>Handout Winnings</button>
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="5" className="item">
@@ -35,7 +35,7 @@ const Writeaccordion = () => {
           Finalize Lottery
         </Accordion.Header>
         <Accordion.Body>
-          <button>Witdraw Profits / Reset Lottery</button>
+          <button className='priceupdate_btn'>Witdraw Profits / Reset Lottery</button>
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="2" className="item">
@@ -43,7 +43,7 @@ const Writeaccordion = () => {
           Unpause Contract
         </Accordion.Header>
         <Accordion.Body>
-          <button>Unpause</button>
+          <button className='priceupdate_btn'>Unpause</button>
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="7" className="item">

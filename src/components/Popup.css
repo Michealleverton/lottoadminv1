@@ -12,6 +12,7 @@
   font-size: 15px;
   font-weight: 500;
   display: none;
+  z-index: 2000;
 }
 
 .copycontractaddress button:after {
@@ -24,6 +25,7 @@
   background: #5c81dc;
   transform: rotate(45deg);
   display: none;
+  z-index: 2000;
 }
 
 .copycontractaddress.active button:before,

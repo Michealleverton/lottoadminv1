@@ -15,6 +15,10 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
+.myaccordion-body {
+    background-image: purple;
+}
+
 .accordcontain {
     position: relative;
     display: flex;
@@ -37,3 +41,40 @@
     color: #ffffff;
     font-style:italic;
 }
+
+.priceupdate_container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.priceupdateinput {
+    background: none;
+    outline-style: none;
+    width: auto;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0) !important;
+    color: rgb(0, 0, 0);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    font-size: 15px;
+}
+
+.priceupdate_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    background: #012137;
+    color: rgb(195, 195, 195);
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 5px;
+}
+

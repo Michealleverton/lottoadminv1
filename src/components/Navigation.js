@@ -52,9 +52,9 @@ const Navigation = (props) => {
     const walletResponse = await connectWallet();
     setStatus(walletResponse.status);
     setWallet(walletResponse.address);
-    localStorage.setItem("connected address", walletResponse.address)
+    localStorage.setItem("connected address",walletResponse.address)
   };
-const nummy = 2
+
   // * Navbar html to display App itmes
 
   return (
@@ -82,13 +82,6 @@ const nummy = 2
                   ) : (
                     <span>Connect Wallet</span>
                   )}
-
-                  {nummy > 0 ? (
-                    <span>Connected</span>
-                  ) : (
-                    <span>Connect Wallet</span>
-                  )}
-
                 </button>
               </div>
             </div>

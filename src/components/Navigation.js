@@ -63,7 +63,7 @@ const Navigation = (props) => {
         <div className="mycontainer">
           <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
 
-            <a href="https://decentralizlottery.netlify.app/" rel="noopener noreferrer nofollow" 
+            <a href="https://decentralizlottery.netlify.app" rel="noopener noreferrer nofollow" 
    target="_blank" className="nav-link test text-white logoml"><h2>Decentraliz Lottery</h2></a>
 
             <div className="navbar-collapse text-center">

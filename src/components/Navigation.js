@@ -63,7 +63,7 @@ const Navigation = (props) => {
         <div className="mycontainer">
           <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
 
-            <a className="nav-link test text-white logoml" href="https://decentralizlottery.netlify.app/"><h2>Decentraliz Lottery</h2></a>
+            <a href="https://decentralizlottery.netlify.app/" className="nav-link test text-white logoml"><h2>Decentraliz Lottery</h2></a>
 
             <div className="navbar-collapse text-center">
               <ul className="nav ms-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
